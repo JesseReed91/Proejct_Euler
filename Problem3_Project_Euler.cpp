@@ -19,10 +19,11 @@ using namespace std;
 
 int main()
 {
-    long long int number = 2303030303478456;
+    long long int number = 600851475143;
     int factor = 2;
 
-    //600851475143
+
+    //2303030303478456 -- arbitrary number to see if it works for other numbers
 
     cout << number << endl;
 
