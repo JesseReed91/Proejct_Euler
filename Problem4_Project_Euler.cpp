@@ -49,7 +49,7 @@ bool isPalindrome(int num)
 
     while (left < right)
     {
-        if (palindrome[left] != palindrome[right])
+        if (palindrome[left] != palindrome[right]) //checks to see if the left digit is the same as the right
         {
             return false;
         }

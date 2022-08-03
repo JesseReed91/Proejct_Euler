@@ -23,7 +23,7 @@ int main()
     int factor = 2;
 
 
-    //2303030303478456 -- arbitrary number to see if it works for other numbers
+    //2303030303478456 -- arbitrary number to see if it works for numbers other than the original
 
     cout << number << endl;
 

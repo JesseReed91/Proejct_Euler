@@ -35,8 +35,10 @@ int main()
 
     while (newNum <= MAX)
     {
-        newNum = placeholder + oldNum;
-        placeholder = oldNum;
+        //iterates the next number in the Fibonacci sequence by adding the placeholder value and old number together
+        //i.e. newNum = 0 + 1, placeholder then becomes equal to 1, and then oldNum = 1, then the next time the loop iterates it'll be newNum = 1 + 1
+        newNum = placeholder + oldNum; 
+        placeholder = oldNum; //holds the value of the old number in placeholder
         oldNum = newNum;
 
         if (newNum % 2 == 0)

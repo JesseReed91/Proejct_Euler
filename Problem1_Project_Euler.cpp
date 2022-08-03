@@ -25,7 +25,7 @@ int main()
     for (int i = 1; i < num; i++)
     {
 
-        if (i % 3 == 0 || i % 5 == 0)
+        if (i % 3 == 0 || i % 5 == 0) //checks to see if the number is divisible by 3 or 5 without a remainder
         {
             accumulator += i;
         }
