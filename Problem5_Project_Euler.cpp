@@ -6,14 +6,6 @@ What is the smallest positive number that is evenly divisible by all of the numb
 */
 
 #include <iostream>
-#include <fstream>
-#include <string>
-#include <vector>
-#include <cmath>
-#include <iomanip>
-#include <ctime>
-#include <cstdlib>
-#include <stdlib.h>
 
 using namespace std;
 
@@ -26,7 +18,7 @@ int main()
     int divisor = 1;
     long long int i;
     
-    for (i = 1; ; i++)
+    for (i = 20; ; i += 20)
     {
         for (int j = minDivisor; j <= maxDivisor; j++)
         {
